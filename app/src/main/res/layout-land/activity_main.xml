@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blanche"
+    tools:context="com.example.android.a10thplanetcard.MainActivity">
+
+    <ImageView
+        android:id="@+id/planet10thlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/dsu1" />
+
+
+    <TextView
+        android:id="@+id/planetInfo"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/seize"
+        android:text="@string/coach"
+        android:layout_marginTop="@dimen/seize"
+        android:textSize="@dimen/text20"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  />
+
+    <TextView
+        android:id="@+id/planet10Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/planetInfo"
+        android:layout_marginTop="@dimen/seize"
+        android:layout_toLeftOf="@+id/scott10th"
+        android:layout_toStartOf="@+id/scott10th"
+        android:text="@string/planet10"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text20" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/planet10Name"
+        android:layout_alignStart="@+id/planet10Name"
+        android:layout_below="@+id/planet10Name"
+        android:text="@string/info" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/info"
+        android:layout_alignStart="@+id/info"
+        android:layout_below="@+id/info"
+        android:text="@string/contact" />
+
+    <ImageView
+        android:id="@+id/mmaGym"
+        android:layout_width="@dimen/buck5"
+        android:layout_height="@dimen/eighty"
+        android:layout_alignLeft="@+id/planetInfo"
+        android:layout_alignStart="@+id/planetInfo"
+        android:layout_alignTop="@+id/scott10th"
+        android:layout_marginLeft="@dimen/douze"
+        android:layout_marginStart="@dimen/douze"
+        android:layout_marginTop="@dimen/dHuit"
+        android:src="@drawable/mmagym" />
+
+    <ImageView
+        android:id="@+id/scott10th"
+        android:src="@drawable/scott10"
+        android:layout_width="@dimen/buck5"
+        android:layout_height="@dimen/buck5"
+        android:layout_marginBottom="@dimen/nega"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>

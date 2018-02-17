@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">10thPlanetCard</string>
+    <string name="planet10">10th Planet West LA</string>
+    <string name="info">1080 S La Cienega Blvd #106 \nLos Angeles, CA 90035</string>
+    <string name="contact">Tel. 323-543-5487 \nEmail: 10thPlanetWestLA@gmail.com</string>
+    <string name="coach">Head Coach: Scott \'Einstein\' Epstein</string>
+</resources>

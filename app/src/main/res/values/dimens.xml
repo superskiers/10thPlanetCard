@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nega">-20dp</dimen>
+    <dimen name="quatre">4dp</dimen>
+    <dimen name="huit">8dp</dimen>
+    <dimen name="douze">12dp</dimen>
+    <dimen name="seize">16dp</dimen>
+    <dimen name="dixsept">17dp</dimen>
+    <dimen name="dHuit">18dp</dimen>
+    <dimen name="text20">20sp</dimen>
+    <dimen name="dp20">20dp</dimen>
+    <dimen name="trente">30dp</dimen>
+    <dimen name="five7">57dp</dimen>
+    <dimen name="soixante">60dp</dimen>
+    <dimen name="eighty">80dp</dimen>
+    <dimen name="buck5">150dp</dimen>
+</resources>
